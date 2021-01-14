@@ -15,20 +15,29 @@
     <img src="download.png">
     
     <form>
-        <label for="univ_name">University: </label><br>
-        <input type="text" id="univ_name" name="univ_name"><br>
+        <label for="major_name">Field of study in college: </label><br>
+        <input type="text" id="major_name" name="major_name"><br>
+        <label for="prof_list">You are currently a: </label>
+        <ul id="prof_list" name="prof_list">
+            <li><input type="radio" id="college" name="college">
+            <label for="college">College student</label></li>
+            <li><input type="radio" id="eng1" name="eng1">
+            <label for="eng1">Professional in Software Industry</label></li>
+            <li><input type="radio" id="eng2" name="eng2">
+                <label for="eng2">Professional in Another Industry</label></li>
+        </ul>
         <label for="lang_list">Language(s) that you use in your work/school:</label><br>
         <ul id="lang_list" name="lang_list">
-            <input type="checkbox" id="lang1" name="lang1" value="Java">
-            <label for="lang1"> Java</label><br>
-            <input type="checkbox" id="lang2" name="lang2" value="JS">
-            <label for="lang2"> JavaScript</label><br>
-            <input type="checkbox" id="lang3" name="lang3" value="Python">
-            <label for="lang3"> Python</label>
-            <input type="checkbox" id="lang4" name="lang4" value="C">
-            <label for="lang4"> C/C++</label>
-            <input type="checkbox" id="lang5" name="lang5" value="C">
-            <label for="lang5"> C#</label>
+            <li><input type="checkbox" id="lang1" name="lang1" value="Java">
+            <label for="lang1"> Java</label><br></li>
+            <li><input type="checkbox" id="lang2" name="lang2" value="JS">
+            <label for="lang2"> JavaScript</label><br></li>
+            <li><input type="checkbox" id="lang3" name="lang3" value="Python">
+            <label for="lang3"> Python</label><br></li>
+            <li><input type="checkbox" id="lang4" name="lang4" value="C">
+            <label for="lang4"> C/C++</label><br></li>
+            <li><input type="checkbox" id="lang5" name="lang5" value="C">
+            <label for="lang5"> C#</label><br></li>
         </ul>
         <input type="submit" value="submit">
     </form>
