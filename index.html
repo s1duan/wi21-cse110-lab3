@@ -21,9 +21,10 @@
         <section>
         <h2>Programming Language Survey</h2>
         <form>
-            <label for="major_name">Field of study in college: </label><br>
-            <input type="text" id="major_name" name="major_name"><br>
-            <span>You are currently a:</span>
+            <ol>
+            <li><label for="major_name">Field of study in college: </label><br>
+            <input type="text" id="major_name" name="major_name"><br></li>
+            <li><span>You are currently a:</span>
             <ul id="prof_list">
                 <li><input type="radio" id="college" name="prof">
                 <label for="college">College student</label></li>
@@ -31,8 +32,8 @@
                 <label for="eng1">Professional in Software Industry</label></li>
                 <li><input type="radio" id="eng2" name="prof">
                 <label for="eng2">Professional in Another Industry</label></li>
-            </ul>
-            <span>Language(s) that you use in your work/school:</span>
+            </ul></li>
+            <li><span>Language(s) that you use in your work/school:</span>
             <ul id="lang_list">
                 <li><input type="checkbox" id="lang1" name="lang1" value="Java">
                 <label for="lang1"> Java</label><br></li>
@@ -44,17 +45,19 @@
                 <label for="lang4"> C/C++</label><br></li>
                 <li><input type="checkbox" id="lang5" name="lang5" value="C">
                 <label for="lang5"> C#</label><br></li>
-            </ul>
-            <label for="yoe">Years of Experience using your most proficient language (between 1 and 30):</label>
-            <input type="number" id="yoe" name="yoe" min="1" max="30"><br>
-            <label for="email">Enter your email:</label>
-            <input type="email" id="email" name="email"><br>
-            <label for="phone">Enter your phone number:</label>
-            <input type="tel" placeholder="123-456-7890" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
-            <label for="rating">How would you rate this website: (between 0 and 100):</label>
-            <input type="range" id="rating" name="rating" min="0" max="100"><br>
-            <label for="favcolor">What is your favorite color:</label>
-            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+            </ul></li>
+            <li><label for="yoe">Years of Experience using your most proficient language (between 1 and 30):</label><br>
+            <input type="number" id="yoe" name="yoe" min="1" max="30"></li>
+            <li><label for="email">Enter your email:</label><br>
+            <input type="email" id="email" name="email"></li>
+            <li><label for="phone">Enter your phone number:</label><br>
+            <input type="tel" placeholder="123-456-7890" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></li>
+            <li><label for="rating">How would you rate this website: (between 0 and 100):</label><br>
+            <input type="range" id="rating" name="rating" min="0" max="100"></li>
+            <li><label for="favcolor">What is your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"></li>
+            </ol>
+            <br><br>
             <input type="reset">
             <input type="submit" value="submit">
         </form>
