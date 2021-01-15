@@ -8,50 +8,60 @@
 </head>
 
 <body>
-    <h1>Welcome to Stephen's GitHub Page</h1>
-    <h2>About Me</h2>
-    <div>My name is Sicong (Stephen) Duan, I am a third-year Computer Engineering Student at <b>UC San Diego</b>. 
-        I am interested in Machine Learning and Software Engineering and look forward to making an impact on the world with technology
-        feel free to connect with me and shoot me a message on LinkedIn if you have any questions for this GitHub Page!</div>
-    <img src="download.png">
-    
-    <form>
-        <label for="major_name">Field of study in college: </label><br>
-        <input type="text" id="major_name" name="major_name"><br>
-        <label for="prof_list">You are currently a: </label>
-        <ul id="prof_list" name="prof_list">
-            <input type="radio" id="college" name="prof">
-            <label for="college">College student</label>
-            <input type="radio" id="eng1" name="prof">
-            <label for="eng1">Professional in Software Industry</label>
-            <input type="radio" id="eng2" name="prof">
-            <label for="eng2">Professional in Another Industry</label>
-        </ul>
-        <label for="lang_list">Language(s) that you use in your work/school:</label><br>
-        <ul id="lang_list" name="lang_list">
-            <li><input type="checkbox" id="lang1" name="lang1" value="Java">
-            <label for="lang1"> Java</label><br></li>
-            <li><input type="checkbox" id="lang2" name="lang2" value="JS">
-            <label for="lang2"> JavaScript</label><br></li>
-            <li><input type="checkbox" id="lang3" name="lang3" value="Python">
-            <label for="lang3"> Python</label><br></li>
-            <li><input type="checkbox" id="lang4" name="lang4" value="C">
-            <label for="lang4"> C/C++</label><br></li>
-            <li><input type="checkbox" id="lang5" name="lang5" value="C">
-            <label for="lang5"> C#</label><br></li>
-        </ul>
-        <label for="yoe">Years of Experience using your most proficient language (between 1 and 30):</label>
-        <input type="number" id="yoe" name="yoe" min="1" max="30"><br>
-        <label for="email">Enter your email:</label>
-        <input type="email" id="email" name="email"><br>
-        <label for="phone">Enter your phone number:</label>
-        <input type="tel" placeholder="123-456-7890" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
-        <label for="rating">How would you rate this website: (between 0 and 100):</label>
-        <input type="range" id="rating" name="rating" min="0" max="100"><br>
-        <label for="favcolor">What is your favorite color:</label>
-        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
-        <input type="reset">
-        <input type="submit" value="submit">
-    </form>
+    <header><h1>Welcome to Stephen's GitHub Page</h1></header>
+    <main>
+        <section>
+        <h2>About Me</h2>
+        <div>My name is Sicong (Stephen) Duan, I am a third-year Computer Engineering Student at <b>UC San Diego</b>. 
+            I am interested in Machine Learning and Software Engineering and look forward to making an impact on the world with technology
+            feel free to connect with me and shoot me a message on LinkedIn if you have any questions for this GitHub Page!</div>
+        <img src="download.png">
+        </section>
+
+        <section>
+        <h2>Programming Language Survey</h2>
+        <form>
+            <label for="major_name">Field of study in college: </label><br>
+            <input type="text" id="major_name" name="major_name"><br>
+            <label for="prof_list">You are currently a: </label>
+            <ul id="prof_list" name="prof_list">
+                <input type="radio" id="college" name="prof">
+                <label for="college">College student</label>
+                <input type="radio" id="eng1" name="prof">
+                <label for="eng1">Professional in Software Industry</label>
+                <input type="radio" id="eng2" name="prof">
+                <label for="eng2">Professional in Another Industry</label>
+            </ul>
+            <label for="lang_list">Language(s) that you use in your work/school:</label><br>
+            <ul id="lang_list" name="lang_list">
+                <li><input type="checkbox" id="lang1" name="lang1" value="Java">
+                <label for="lang1"> Java</label><br></li>
+                <li><input type="checkbox" id="lang2" name="lang2" value="JS">
+                <label for="lang2"> JavaScript</label><br></li>
+                <li><input type="checkbox" id="lang3" name="lang3" value="Python">
+                <label for="lang3"> Python</label><br></li>
+                <li><input type="checkbox" id="lang4" name="lang4" value="C">
+                <label for="lang4"> C/C++</label><br></li>
+                <li><input type="checkbox" id="lang5" name="lang5" value="C">
+                <label for="lang5"> C#</label><br></li>
+            </ul>
+            <label for="yoe">Years of Experience using your most proficient language (between 1 and 30):</label>
+            <input type="number" id="yoe" name="yoe" min="1" max="30"><br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" placeholder="123-456-7890" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+            <label for="rating">How would you rate this website: (between 0 and 100):</label>
+            <input type="range" id="rating" name="rating" min="0" max="100"><br>
+            <label for="favcolor">What is your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+            <input type="reset">
+            <input type="submit" value="submit">
+        </form>
+        </section>
+    </main>
+    <footer>
+        <p>Page Created By: Stephen Duan</p>
+    </footer>
 </body>
 </html>
