@@ -1,11 +1,15 @@
-section p{
-    padding: 10px;
+section.paragraph{
     border-style: solid;
-    border-color: blue;
+    border-color: rgb(0, 0, 255);
     border-width: thin;
     border-radius: 50px 20px;
 }
-
+div code{
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
 table{
     background-color: rgba(0, 0, 255, 0.3);
 }
