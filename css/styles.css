@@ -1,7 +1,11 @@
 section p{
     padding: 10px;
-    border-style: dashed;
+    border-style: solid;
     border-color: blue;
     border-width: thin;
-    border-radius: 25px;
+    border-radius: 50px 20px;
+}
+
+table{
+    background-color: rgba(0, 0, 255, 0.3);
 }
