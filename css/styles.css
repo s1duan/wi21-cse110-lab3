@@ -1,17 +1,10 @@
 div.paragraph{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-style: solid;
     border-color: rgb(0, 0, 255);
     border-width: thin;
     border-radius: 50px 20px;
-}
-
-div code{
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-left: 10px;
-    padding-bottom: 30px;
 }
 
 table{
