@@ -1,6 +1,6 @@
 div.paragraph{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-style: solid;
     border-color: rgb(0, 0, 255);
     border-width: thin;
