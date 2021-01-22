@@ -42,7 +42,7 @@ header > div, figcaption{
     color: hsla(120, 100%, 75%, 0.3);
 }
 
-h2 + code{
+h2 + .code{
     text-align: center;
     display: inline-block;
     border: hsl(0, 0%, 0%)
