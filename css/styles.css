@@ -51,6 +51,10 @@ header > div, figcaption{
     margin-right: auto;
 }
 
+div + audio{
+    display: inline;
+}
+
 table{
     background: rgba(0, 0, 255, 0.3);
 }
