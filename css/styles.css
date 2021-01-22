@@ -16,3 +16,12 @@ div.paragraph{
 table{
     background-color: rgba(0, 0, 255, 0.3);
 }
+
+table > caption{
+    color:#FFD700;
+    text-decoration: underline;
+}
+
+header > div{
+    text-align: center;
+}
