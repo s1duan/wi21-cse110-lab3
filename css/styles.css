@@ -33,6 +33,12 @@ header > div, figcaption{
 .navigation a:active{
     color: hsla(120, 100%, 75%, 0.3);
 }
+
+#resource_web{
+    width: 100%;
+    height: 50px;
+}
+
 .img{
     display: block;
     margin-left: auto;
