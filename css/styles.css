@@ -20,7 +20,7 @@ header > div, figcaption{
 }
 
 .navigation{
-    position: relative;
+    position: fixed;
     background-color:#311;
     overflow: hidden;
 }
@@ -40,6 +40,12 @@ header > div, figcaption{
 
 .navigation a:active{
     color: hsla(120, 100%, 75%, 0.3);
+}
+
+h2 + code{
+    text-align: center;
+    display: inline-block;
+    border: hsl(0, 0%, 0%)
 }
 
 #resource_web{
