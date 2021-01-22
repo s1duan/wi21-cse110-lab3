@@ -22,6 +22,7 @@ header > div, figcaption{
 .navigation{
     position: relative;
     background-color:#311;
+    overflow: hidden;
 }
 
 .navigation a{
