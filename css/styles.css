@@ -1,5 +1,6 @@
 /* This CSS Page is created by Stephen Duan to style his personal 
 web page, find more about it at https://s1duan.github.io/wi21-cse110-lab3/ */
+
 *{
     font-family: "Yusei Magic", sans-serif;
 }
@@ -20,7 +21,7 @@ header > div, figcaption{
 }
 
 .navigation{
-    position: fixed;
+    position: relative;
     background-color:#311;
     overflow: hidden;
 }
@@ -35,17 +36,11 @@ header > div, figcaption{
 
 .navigation a:hover{
     background-color: #ddd;
-    color: black;
+    color: hsl(0, 0%, 0%);
 }
 
 .navigation a:active{
     color: hsla(120, 100%, 75%, 0.3);
-}
-
-h2 + .code{
-    text-align: center;
-    display: inline-block;
-    border: hsl(0, 0%, 0%)
 }
 
 #resource_web{
@@ -64,11 +59,10 @@ table{
 }
 
 table > caption{
-    color:blue;
+    color:#0000ff;
     text-decoration: underline;
 }
 
-textarea{
+textarea ~ footer{
     min-width: 50%;
-    max-width: 80%;
 }
