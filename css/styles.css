@@ -11,15 +11,16 @@ header > div, figcaption{
     text-align: center;
 }
 
-#navigation{
+.navigation{
     position: relative;
     background-color:#333;
-    width: 100%;
+    overflow: hidden;
 }
 
-#navigation a{
+.navigation a{
     float: left;
     color: floralwhite;
+    text-align: center;
     padding: 15px 15px;
     font-size:20px;
 }
