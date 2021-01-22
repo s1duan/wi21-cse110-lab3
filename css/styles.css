@@ -66,3 +66,9 @@ table > caption{
 textarea{
     min-width: 50%;
 }
+
+@media only screen and (max-width: 1000px) {
+    body{
+        font-size: 20px;
+    }
+}
