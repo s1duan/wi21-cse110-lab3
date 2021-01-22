@@ -67,3 +67,8 @@ table > caption{
     color:blue;
     text-decoration: underline;
 }
+
+textarea{
+    min-width: 50%;
+    max-width: 80%;
+}
