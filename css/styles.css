@@ -25,11 +25,14 @@ header > div, figcaption{
     font-size:20px;
 }
 
-.navigation a:hover {
+.navigation a:hover{
     background-color: #ddd;
     color: black;
 }
 
+.navigation a:active{
+    color: hsla(120, 100%, 75%, 0.3);
+}
 .img{
     display: block;
     margin-left: auto;
