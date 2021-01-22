@@ -17,6 +17,7 @@ header > div, figcaption{
 
 #navigation{
     background-color: #333;
+    width: 100%;
 }
 
 #navigation a{
