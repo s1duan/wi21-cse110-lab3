@@ -3,6 +3,7 @@ web page, find more about it at https://s1duan.github.io/wi21-cse110-lab3/ */
 *{
     font-family: "Yusei Magic", sans-serif;
 }
+
 div.paragraph{
     padding-left: 20px;
     padding-right: 20px;
@@ -49,10 +50,6 @@ header > div, figcaption{
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-div + audio{
-    display: inline;
 }
 
 table{
