@@ -1,6 +1,7 @@
 * {
-    background-color: #00ffca;
+    background-color: #c9d6ff;
 }
+
 div.paragraph{
     padding-left: 20px;
     padding-right: 20px;
@@ -12,6 +13,16 @@ div.paragraph{
 
 header > div, figcaption{
     text-align: center;
+}
+
+#navigation{
+    background-color: #333;
+}
+
+#navigation a{
+    float: left;
+    color: floralwhite;
+    font-size:20px;
 }
 
 .img{
