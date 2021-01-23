@@ -83,9 +83,20 @@ footer{
     justify-content: space-between;
 }
 
+#title1{ grid-area: title1;}
+#p1{ grid-area: p1;}
+#title2{grid-area: title2;}
+#p2{ grid-area: p2;}
+#title3{ grid-area:title3;}
+#p3{ grid-area: p3;}
+
 .grid-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "title1 p1 p1 p1 p1 p1"
+        "p2 p2 p2 p2 p2 title2"
+        "title3 p3 p3 p3 p3 p3";
 }
 
 @media only screen and (min-width: 1000px) {
