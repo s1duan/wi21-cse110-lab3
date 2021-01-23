@@ -73,7 +73,7 @@ textarea{
 }
 
 footer{
-    position: fixed;
+    position: absolute;
     max-width: 20%;
 }
 @media only screen and (min-width: 1000px) {
