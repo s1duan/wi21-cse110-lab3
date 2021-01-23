@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <style>
+        img[alt="UC San Diego"]{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -72,28 +78,38 @@
                 <img src="Spurs.png" alt="Spurs" class="img">
             </picture>
         <section>
+            <div class="flex_container">
             <h2>Random Stuff</h2>
+            <div>
             <h3>Random Video</h3>
-            <div><pre>Checkout this cool random video of nature :)</pre></div>
+            <pre>Checkout this cool random video of nature :)</pre>
             <video width="540" height="480" controls>
                 <source src="movie.mp4" type="video/mp4">
-            </video>
+            </video></div>
+            <div>
             <h3>Random Guitar Song</h3>
             <div><pre>Checkout this cool guitar song I found online :)</pre></div>
             <audio controls>
                 <source src="FolkBed.mp3" type="audio/mpeg">
-            </audio>
+            </audio></div>
+            <div>
             <h3>Random Canvas</h3>
             <div><pre>Checkout this random HTML canvas I built :) </pre></div>
             <canvas id="myCanvas" width="200" height="100" style="border: 2px dashed #000000"></canvas>
+            </div>
+            <div>
             <h3>Random Circle</h3>
             <div><pre>Checkout this random circle I built with SVG :)</pre></div>
             <svg width="100" height="100">
                 <circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="blue" />
             </svg>
+            </div>
+            <div>
             <h3>Random Button</h3>
             <div><pre>Checkout this random button I built :)</pre></div>
             <button type="button">Click Me!</button>
+            </div>
+            </div>
         </section>
         <template><p>This was not supposed to be shown since it's in a template tag</p></template>
         <hr>
