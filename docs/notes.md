@@ -10,3 +10,8 @@
 - What I will do today: Keep adding more styles using CSS
 - Where I am blocked: how to properly style the "code" tag in html to make it resemble code sections in markdown
 - Comfort level: About a third of way into the lab, confident will finish on time
+### 01-22-2021
+- What I did yesterday: Added many CSS features to the code including the box for the paragraphs
+- What I will do today: redesign a new nav bar for my page, design a new layout with CSS grid and add many other CSS features
+- Where I am blocked: how to design the nav bar such that it is reactive when hover over it
+- Comfort level: About halfway done with the lab, will finish by today
