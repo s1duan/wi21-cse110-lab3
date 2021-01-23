@@ -1,6 +1,5 @@
 /* This CSS Page is created by Stephen Duan to style his personal 
 web page, find more about it at https://s1duan.github.io/wi21-cse110-lab3/ */
-
 *{
     font-family: "Yusei Magic", sans-serif;
 }
@@ -82,6 +81,12 @@ footer{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
 }
 
 @media only screen and (min-width: 1000px) {
