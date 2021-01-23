@@ -90,7 +90,7 @@ footer{
 }
 #p1{ 
     grid-area: p1;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 #title2{
     grid-area: title2;
@@ -99,7 +99,7 @@ footer{
 }
 #p2{ 
     grid-area: p2;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 #title3{ 
     grid-area:title3;
@@ -108,7 +108,7 @@ footer{
 }
 #p3{ 
     grid-area: p3;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .grid-container{
@@ -120,6 +120,9 @@ footer{
         "title3 p3 p3 p3 p3 p3";
 }
 
+span ~ ul{
+    font-size: 10px;
+}
 @media only screen and (min-width: 1000px) {
     body{
         font-size: 20px;
